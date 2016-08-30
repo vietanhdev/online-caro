@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 	position: relative;
 	font-family: Arial;
+	font-size: 14px;
 }
 body {
 	background: url("../img/wood.png");
@@ -15,7 +16,7 @@ body {
   box-sizing: content-box;
   cursor: pointer;
   border: none;
-  font: normal 36px/normal "Passero One", Helvetica, sans-serif;
+  font: normal 32px/normal "Passero One", Helvetica, sans-serif;
   color: rgba(255,255,255,1);
   text-align: left;
   -o-text-overflow: clip;
@@ -30,8 +31,7 @@ body {
 
 #container{
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 30px auto;
 }
 .content-area-title{
 	color: #5C392A;
@@ -51,8 +51,8 @@ body {
 	color: #362A1D;
 }
 
-
-/*Control elements*/
+ 
+/*Control Elements*/
 .btn1 {
 	font-weight: bold;
 	text-transform: uppercase;

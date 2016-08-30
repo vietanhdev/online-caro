@@ -1,48 +1,12 @@
 
-/*#float-bar{
-	display: block;
-	position: fixed;
-	top: 20px;
-	right: 0;
-	width: 45px;
-	z-index: 100;
-}
-.float-icon{
-	width: 45px;
-	background: #FFD4A2;
-	padding: 5px;
-	border: 2px solid #5C4C3A;
-	border-radius: 10px 0 0 10px;
-
-}*/
-
 #board-area{
-	max-width: 800px;
+	max-width: 1000px;
 }
 #info-board{
 	padding: 5px;
 	text-align: center;
 }
-#info-board:after {
-	position: relative;
-    clear: both;
-	content: ".";
-	display: block;
-	height: 0;
-	line-height: 0;
-	visibility: hidden;
-}
-#info-board-title {
-	background: #5C483A;
-	margin-bottom: 10px;
-	padding: 5px;
-	color: #FFD4A2;
-}
-#info-board-title a{
-	text-decoration: none;
-	color: #FFD4A2;
-	font-weight: bold;
-}
+
 .oppo-avt {
 	height: 60px;
 	width: 60px;
